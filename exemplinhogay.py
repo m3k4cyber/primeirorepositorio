@@ -7,7 +7,7 @@ jane.geometry('400x200')
 jane.title('trabajo radiobutão kk')
 jane.resizable(False, False)
 jane.anchor(anchor='center')
-jane.tk.call('wm','iconphoto',jane._windowingsystem, tk.PhotoImage(file='Donald.png'))
+#jane.tk.call('wm','iconphoto',jane._windowingsystem, tk.PhotoImage(file='Donald.png'))
 
 def escolha():
     showinfo(title= 'resignificando', message=f'você é gay {tamanhoN.get()}')

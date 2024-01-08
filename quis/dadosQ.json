@@ -1,0 +1,25 @@
+{
+    "Quest":[
+        "Quest-1: Qual o pais mais antigo do mundo?",
+        "Quest-2: O altor da frase 'penso, logo existo'?",
+        "Quest-3: Qual a população de tokyo?",
+        "Quest-4: Qual o ano de lançamendo da primeira edição de Tekken?",
+        "Quest-4: Qual o ano de lançamendo da primeira edição de Tekken?",
+        "Quest-4: Quem inventou a programação eletrônica?"
+    ],
+
+    "Answers":[
+        5,
+        3,
+        4,
+        3,
+        4
+    ], 
+    "Opcoes":[
+        ["Brasil","England","Egypt","Israel","Japão"],
+        ["Sócrates","Heráclites","Descartes","Neymar","pondé"],
+        ["100 mil","180 milhoes","13 milhoes 960 mil","Não há humanos lá","7 admins"],
+        ["1974","1839","1994","680 a.C","476 d.C"],
+        ["Leonardo di caprio","Van Gogh","Abraham Lincoln","Charles Babbage","Elon Musk"]
+    ]
+}
