@@ -1,4 +1,4 @@
-*{  /* RESET */
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,8 +6,9 @@
 
 body > header {
     background-color: black;
-    color: rgb(224, 224, 224);
+    color: rgb(185, 1, 139);
     padding: 16px 0;
+    align-items: center;
 }
 
 header .container{
@@ -48,7 +49,7 @@ header li a:hover{
 }
 
 section{
-    padding: 16px 0;
+    padding: 32px 0;
 }
 
 section h2, .articles article{
@@ -73,7 +74,7 @@ section h2, .articles article{
 .articles article a{
     text-decoration: none;
     background-color:black;
-    color: rgb(235, 235, 235);
+    color: rgb(197, 0, 197);
     padding: 8px;
     display: inline-block;
     font-weight:700;
@@ -84,17 +85,9 @@ section h2, .articles article{
 }
 
 #sports{
-    background-color: rgba(17, 132, 167, 0.404);;
+    background-color: rgba(0, 0, 0, 0.404);;
 }
-#economy{
-    background-color: rgba(34, 206, 106, 0.37);
-}
-#re4{
-    background-color: rgba(128, 0, 0, 0.596);;
-}
-#dark{
-    background-color: rgba(70, 70, 70, 0.596);;
-}
+
 .articles article a{
     color: rgb(230, 230, 230);
 }
