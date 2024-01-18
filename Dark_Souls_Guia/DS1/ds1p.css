@@ -5,43 +5,49 @@
 }
 
 body{
-    background-image: url(/Dark_Souls_Guia/DS1/imgDS1/backgroundDS1.jpg);
+    background-image: url(/Dark_Souls_Guia/DS1/imgDS1/ds1gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/* cabeçario */
+
 #cabesDS1{
     background-color: rgb(90, 90, 90);
-    display: flex;
+    display: inline;
     justify-content: space-between;
     align-items: center;
     color: rgb(5, 5, 5);
-    padding: 30px 0;
+    padding: 25px 0;
     position: fixed;
-    top: 1;
+    top: 0;
     left: 0;
     right: 0;
 }
-h1{
-    margin-left: 1000px;
+#cabesDS1 h1{
+    margin-left: 40px;
+    display: inline;
 }
-
-header li {
+#cabesDS1 li {
     display: inline;
     font-size: large;
+    margin: 0px;
+    margin-left:-30px;
 }
-header li a{
+#cabesDS1 li a{
     color: rgb(230, 230, 230);
     text-decoration: none;
     margin-left:100px;
     padding: 5px;
 }
-header li a:hover{
+#cabesDS1 li a:hover{
     color: rgba(92, 0, 0, 0.808);
 }
 
-#Inicio{
+/* area centrau / caixa principal */
+
+#mainbox{
     background-color: rgba(0, 0, 0, 0.9);
     width: 1500px;
     height: 10000px;
@@ -52,10 +58,335 @@ header li a:hover{
     margin-top: 5000px;
     padding: 10px;
 }
-#Inicio h1{
+#mainbox h1{
     color: rgb(177, 177, 177);
     margin-top: 75px;
     margin-left: 38%;
+    margin-right: 300px;
     font-size: xxx-large;
 }
 
+/* imagem inicial e informações */
+
+#imginicio{
+    margin: 30px;
+    display: inline;
+    float: left;
+}
+#maininfo{
+    margin-top: 80px;
+    padding: 5px;
+}
+#maininfo a{
+    color:rgb(72, 142, 247);
+    text-decoration: none
+}
+#maininfo a:hover{
+    text-decoration:underline
+}
+li{
+    color: aliceblue;
+    font-size: large;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+/* linhas */
+
+#linha1{
+    width: 1fr;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#linha2{
+    width: 1fr;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* informações do jogo */
+
+h2{
+    color: aliceblue;
+    text-decoration:underline;
+    margin-left: 5%;
+    margin-top: 75px;
+    font-size: x-large;
+}
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+
+/* area 'STATUS' */
+
+
+#esc_Status {
+
+    margin-top: 250px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 400px;
+}
+#esc_Status h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block ;
+}
+#esc_Status img{
+    margin-left: 40%;
+    float: left;
+}
+#ES1{
+    border-style: double;
+    border-color: rgb(69, 69, 69);
+    font-size: xx-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    padding-top: 25px;
+}
+#ES1 a{
+    text-decoration: none;
+    color: rgb(130, 130, 129);
+    margin-left: 100px;
+}
+#ES1 a:hover{
+    color: chocolate;
+}
+
+
+/* area 'WEAPONS' */
+
+
+#esc_Weapons {
+
+    margin-top: 250px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 500px;
+}
+#esc_Weapons h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block ;
+}
+#esc_Weapons img{
+    margin-left: 40%;
+    float: left;
+}
+#ES2{
+    border-style: double;
+    border-color: rgb(69, 69, 69);
+    font-size: x-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+#ES2 a{
+    text-decoration: none;
+    color: rgb(130, 130, 129);
+    margin-left: 100px;
+}
+#ES2 a:hover{
+    color: chocolate;
+}
+
+
+/* area 'ARMOR' */
+
+
+#esc_Armor {
+    margin-top: 350px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 500px;
+}
+#esc_Armor h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block ;
+}
+#esc_Armor img{
+    margin-left: 28%;
+    float: left;
+}
+#ES3{
+    border-style: double;
+    border-color: rgb(69, 69, 69);
+    font-size: x-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#ES3 a{
+    text-decoration: none;
+    color: rgb(130, 130, 129);
+    margin-left: 75px;
+    margin-right: -10px
+}
+#ES3 a:hover{
+    color: chocolate;
+}
+#Iss{
+    margin-bottom: 50px;
+    margin-top: 35px;
+    margin-left: -4%;
+    margin-right: -5%;
+}
+
+
+/* area 'Magias' */
+
+
+#esc_Magics {
+    margin-top: 250px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 400px;
+}
+#esc_Magics h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block ;
+}
+#esc_Magics img{
+    margin-left: 40%;
+    float: left;
+}
+#ES6{
+    border-style: double;
+    border-color: rgb(69, 69, 69);
+    font-size: xx-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#ES6 a{
+    text-decoration: none;
+    color: rgb(130, 130, 129);
+    margin-left: 8.8%;
+}
+#ES6 a:hover{
+    color: chocolate;
+}
+
+
+/* area 'characters' */
+
+
+#esc_Characters {
+
+    margin-top: 250px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 500px;
+}
+#esc_Characters h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block ;
+}
+#esc_Characters img{
+    margin-left: 34%;
+    float: left;
+}
+#ES7{
+    border-style: double;
+    border-color: rgb(69, 69, 69);
+    font-size: x-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding-left: 100px;
+    height: 1000px;
+}
+#ES7 a{
+    text-decoration: none;
+    color: rgb(130, 130, 129);
+}
+#ES7 li{
+    margin-left: 10%;
+
+}
+#ES7 a:hover{
+    color: chocolate;
+}
+#ES7 h2{
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+#ferrei h2{
+    margin-left: 10%;
+}
+#ferrei {
+    width: 350px;
+    float: right;
+}
+#comer h2{
+    margin-left: 10%;
+}
+#comer {
+    width: 350px;
+    float: left;
+}
+#fantas h2{
+    margin-left: 10%;
+}
+#fantas {
+
+    width: 350px;
+    float: right;
+    float: inline-end
+}
+
+
+/* area 'locations' */
+
+
+#esc_Locations {
+
+    margin-top: 1000px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 400px;
+}
+#esc_Locations h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block ;
+}
+#esc_Locations img{
+    margin-left: 40%;
+    float: left;
+}
+#ES8{
+    border-style: double;
+    border-color: rgb(69, 69, 69);
+    font-size: xx-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    padding-top: 25px;
+}
+#ES8 a{
+    text-decoration: none;
+    color: rgb(130, 130, 129);
+    margin-left: 100px;
+}
+#ES8 a:hover{
+    color: chocolate;
+}
