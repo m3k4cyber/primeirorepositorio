@@ -1,0 +1,64 @@
+*{  /* RESET */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/Dark_Souls_Guia/DS1/imgDS1/cenários/firelinkwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    background-attachment: fixed;
+}
+
+/* area centrau / caixa principal */
+
+#mainbox{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 1500px;
+    height: 10000px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5000px;
+    padding: 10px;
+}
+#mainbox h1{
+    color: rgb(177, 177, 177);
+    margin-top: 75px;
+    margin-left: 38%;
+    margin-right: 300px;
+    font-size: xxx-large;
+}
+
+/* imagem inicial e informações */
+
+#imginicio{
+    margin: 30px;
+    display: inline;
+    float: left;
+}
+#maininfo{
+    margin-top: 80px;
+    padding: 5px;
+}
+#maininfo h2{
+    color: aliceblue;
+    text-decoration:underline;
+}
+#maininfo a{
+    color:rgb(72, 142, 247);
+    text-decoration: none
+}
+#maininfo a:hover{
+    text-decoration:underline
+}
+li{
+    color: aliceblue;
+    font-size: large;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
