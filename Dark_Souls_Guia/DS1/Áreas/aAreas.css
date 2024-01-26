@@ -39,14 +39,16 @@ body{
     margin: 30px;
     display: inline;
     float: left;
+    height: 300px;
 }
 #maininfo{
-    margin-top: 80px;
+    margin-top: 25px;
     padding: 5px;
 }
 #maininfo h2{
     color: aliceblue;
     text-decoration:underline;
+    font-size: x-large;
 }
 #maininfo a{
     color:rgb(72, 142, 247);
@@ -55,14 +57,70 @@ body{
 #maininfo a:hover{
     text-decoration:underline
 }
-li{
+#maininfo p{
     color: aliceblue;
     font-size: large;
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 22px;
+}
+li{
+    color: aliceblue;
+}
+#Tsep{
+    margin-left: 27px;
 }
 
+/* linhas */
 
-#NPCs{
-    margin: 200px;
+#linha1{
+    margin: 50px;
+}
+
+/* NpCs desta área */
+
+#tb1 td{
+    color: rgb(207, 206, 206);;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    padding: 10px;
+    font-size: 20px;
+}
+#tb1{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#tb1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#tb1 a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+#NPCs h1{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+/* ini das areas */
+
+#ini h1{
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+#ini li{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+#ini a{
+    text-decoration: none;
+    color: rgba(226, 224, 224, 0.836);
+    font-size: larger;
+}
+#ini a:hover{
+    color: chocolate;
+    text-decoration: underline;
 }

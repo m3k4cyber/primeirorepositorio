@@ -160,16 +160,17 @@ p{
     border-style: double;
     border-color: rgb(69, 69, 69);
     font-size: xx-large;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 6%;
     padding-top: 25px;
+    padding-right: -10PX;
 }
 #ES1 a{
     text-decoration: none;
     color: rgb(130, 130, 129);
-    margin-left: 30px;
-    margin-right:49px;
+    margin-left: 35px;
+    margin-right:62px;
 }
 #ES1 a:hover{
     color: chocolate;
