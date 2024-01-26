@@ -360,7 +360,16 @@ p{
     margin-left: 10%;
 }
 #fantas {
-
+    margin-top: -50px;
+    width: 350px;
+    float: right;
+    float: inline-end
+}
+#outros h2{
+    margin-left: 10%;
+}
+#outros {
+    margin-top: -50px;
     width: 350px;
     float: right;
     float: inline-end
