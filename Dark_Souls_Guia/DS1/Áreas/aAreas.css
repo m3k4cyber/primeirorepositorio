@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/Dark_Souls_Guia/DS1/imgDS1/cenários/firelinkwall.jpg);
+    background-image: url(/Dark_Souls_Guia/DS1/imgDS1/cenários/firelink.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -200px;
@@ -17,12 +17,12 @@ body{
 #mainbox{
     background-color: rgba(0, 0, 0, 0.9);
     width: 1500px;
-    height: 10000px;
+    height: 5300px;
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 5000px;
+    margin-top: 2800px;
     padding: 10px;
 }
 #mainbox h1{
@@ -103,24 +103,141 @@ li{
 #NPCs h1{
     margin-left: 200px;
     margin-top: 100px;
+    color: aliceblue;
 }
 
 /* ini das areas */
 
 #ini h1{
+    color: aliceblue;
     margin-left: 180px;
     margin-bottom: 50px;
+    margin-top: 150px;
 }
 #ini li{
-    margin-left: 150px;
-    margin-top: 15px;
+    margin-left: 200px;
+    margin-top: 30px;
 }
 #ini a{
     text-decoration: none;
     color: rgba(226, 224, 224, 0.836);
-    font-size: larger;
+    font-size: x-large;
 }
 #ini a:hover{
     color: chocolate;
     text-decoration: underline;
+}
+
+
+/* area 'Itens' */
+
+
+#esc_Dropbox {
+    margin-left: 27px;
+    margin-top: 200px;
+    margin-right: 45px;
+    height: 400px;
+}
+#esc_Dropbox h1{
+    margin-top: 15px;
+    margin-left: 50px;
+    display: inline-block ;
+    color: aliceblue;
+}
+#esc_Dropbox img{
+    margin-left: 20%;
+    float: left;
+}
+#ES7{
+    border-style: ridge;
+    border-color: darkgray;
+    font-size: x-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding-left: 35px;
+    height: 800px;
+
+}
+#ES7 a{
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
+#ES7 li{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+#ES7 a:hover{
+    color: chocolate;
+}
+#ES7 h2{
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+#ferrei h2{
+    margin-left: 10%;
+    margin-top: 50px;
+    color: rgb(238, 238, 238);
+}
+#ferrei {
+    margin-right: 50px;
+    width: 350px;
+    float: right;
+}
+#ferrei li{
+    margin-top: 20px;
+}
+#comer h2{
+    margin-left: 12%;
+    margin-top: 50px;
+    color: rgb(238, 238, 238);
+}
+#comer {
+    width: 350px;
+    float: left;
+}
+#fantas h2{
+    margin-left: 10%;
+    margin-top: 0px;
+    color: rgb(238, 238, 238);
+}
+#fantas {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 350px;
+    float: right;
+    float: inline-end
+}
+
+/* mapa */
+
+#mapa{
+    margin-top: 700px;
+    margin-left: 100px;
+}
+#mapa h1{
+    margin-left: 22.5%;
+}
+#mapa img{
+    margin-top: 50px;
+    margin-left: 17%;
+}
+
+/* VOLTAR */
+
+#Voltar{
+    margin-top: 20%;
+    margin-left: 8.5%;
+}
+#Voltar p{
+    font-size: xxx-large;
+    color: aliceblue;
+}
+#Voltar a{
+    font-size: xxx-large;
+    text-decoration: none;
+    color: aliceblue;
+}
+#Voltar a:hover{
+    color: chocolate;
 }
