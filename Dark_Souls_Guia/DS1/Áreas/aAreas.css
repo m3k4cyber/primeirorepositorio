@@ -208,11 +208,22 @@ li{
     float: right;
     float: inline-end
 }
+#Upgrade h2{
+    margin-left: 10%;
+    margin-top: 0px;
+    color: rgb(238, 238, 238);
+}
+#Upgrade{
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 350px;
+    float: right;
+}
 
 /* mapa */
 
 #mapa{
-    margin-top: 700px;
+    margin-top: 1500px;
     margin-left: 100px;
 }
 #mapa h1{
@@ -240,4 +251,37 @@ li{
 }
 #Voltar a:hover{
     color: chocolate;
+}
+
+
+/* undeadasylum css */
+
+#ES8{
+    border-style: ridge;
+    border-color: darkgray;
+    font-size: x-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding-left: 35px;
+    height: 1500px;
+
+}
+#ES8 a{
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
+#ES8 li{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+#ES8 a:hover{
+    color: chocolate;
+}
+#ES8 h2{
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+#m2dAsylum{
+    margin-left: -300px;
 }
